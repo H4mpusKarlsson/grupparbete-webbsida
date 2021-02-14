@@ -1,0 +1,158 @@
+body, html{
+  height: 100%;
+  margin: 0px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bakgrund {
+  background-image: url("../img/bakgrund1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: auto;
+  z-index: 1;
+}
+
+.container1{
+top: -1080px;s
+}
+
+.mitten {
+  text-align: center;
+}
+
+navbar {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-color: #4d4d4d;
+  overflow: hidden;
+  width: 100%;
+  z-index: 2;
+}
+
+li {
+  display: inline-block;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+  width: 150px;
+  display: block;
+  padding: 15px;
+  font-weight: bold;
+  float: left;
+}
+
+li a:hover {
+  background-color: #1a1a1a;
+  transform: scale(1.1);
+  transition: .3s;
+}
+
+/* Style the navbar */
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+  z-index: 3;
+}
+
+/* Navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+#navbar:hover{
+
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
+
+/* Galleri, Bildspel */
+{
+  box-sizing: border-box;
+}
+
+.columnbilder {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.rowbilder::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+{
+
+box-sizing: border-box;
+    }
+/* Set additional styling options for the columns */
+    .column-boka {
+  float: left;
+    }
+
+    /* Set width length for the left, right and middle columns */
+    .left-boka {
+    width: 20%;
+    }
+
+    .middle-boka {
+    width: 30%;
+    }
+
+    .right-boka {
+    width: 50%;
+    }
+
+    .row-boka:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+
+.info{
+  color: #000;
+  background-color: inherit;
+  text-align: center;
+  font-size: 18px;
+  font: monospace;
+  padding: 14px 300px;
+}
+
+.grund{
+  color: #000;
+  background-color: inherit;
+  text-align: center;
+  font-size: 20px;
+  font: monospace;
+  padding: 14px 300px;
+}
