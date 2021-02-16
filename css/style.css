@@ -18,14 +18,14 @@ body, html{
 }
 
 .container1{
-top: -1080px;s
+top: -1080px;
 }
 
 .mitten {
   text-align: center;
 }
 
-navbar {
+/*navbar {
   text-align: center;
   margin: 0;
   padding: 0;
@@ -54,6 +54,8 @@ li a:hover {
   transform: scale(1.1);
   transition: .3s;
 }
+
+*/
 
 /* Style the navbar */
 #navbar {
@@ -155,4 +157,8 @@ box-sizing: border-box;
   font-size: 20px;
   font: monospace;
   padding: 14px 300px;
+}
+
+.hitta{
+  text-align: center;
 }
