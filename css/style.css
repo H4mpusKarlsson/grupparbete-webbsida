@@ -25,43 +25,9 @@ top: -1080px;
   text-align: center;
 }
 
-/*navbar {
-  text-align: center;
-  margin: 0;
-  padding: 0;
-  background-color: #4d4d4d;
-  overflow: hidden;
-  width: 100%;
-  z-index: 2;
-}
-
-li {
-  display: inline-block;
-}
-
-li a {
-  text-decoration: none;
-  color: white;
-  width: 150px;
-  display: block;
-  padding: 15px;
-  font-weight: bold;
-  float: left;
-}
-
-li a:hover {
-  background-color: #1a1a1a;
-  transform: scale(1.1);
-  transition: .3s;
-}
-
-*/
-
-/* Style the navbar */
 #navbar {
   overflow: hidden;
   background-color: #333;
-  z-index: 3;
 }
 
 /* Navbar links */
@@ -72,10 +38,6 @@ li a:hover {
   text-align: center;
   padding: 14px;
   text-decoration: none;
-}
-
-#navbar:hover{
-
 }
 
 /* Page content */
@@ -113,16 +75,20 @@ li a:hover {
   display: table;
 }
 
-{
 
+.boka {
+    background-color:rgb(244, 162, 88)
+    text-align: center;
+}
+
+/*lediga bord
 box-sizing: border-box;
-    }
-/* Set additional styling options for the columns */
+
     .column-boka {
   float: left;
     }
 
-    /* Set width length for the left, right and middle columns */
+
     .left-boka {
     width: 20%;
     }
@@ -140,6 +106,8 @@ box-sizing: border-box;
     display: table;
     clear: both;
     }
+  */
+
 
 .info{
   color: #000;
@@ -159,6 +127,20 @@ box-sizing: border-box;
   padding: 14px 300px;
 }
 
-.hitta{
+.vart{
   text-align: center;
+}
+
+.karta{
+  text-align: center;
+}
+
+.kontakt{
+  text-align: center;
+  font-size: 30px;
+}
+
+.nummer{
+  text-align: center;
+  font-size: 20px;
 }
