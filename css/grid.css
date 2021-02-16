@@ -21,34 +21,3 @@ z-index: 2;
   grid-row: 1 /-1;
   z-index: 1;
 }
-
-.nummer{
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(5, 216px);
-}
-
-.a{
-  grid-column: 1/2;
-  grid-row: 1/2
-}
-
-.B{
-  grid-column: 2/3;
-  grid-row: 3/2
-}
-
-.c{
-  grid-column: 3/4;
-  grid-row: 3/4
-}
-
-.d{
-  grid-column: 2/3;
-  grid-row: 2/3;
-}
-
-.e{
-  grid-column: 1/2;
-  grid-row: 1/2;
-}
