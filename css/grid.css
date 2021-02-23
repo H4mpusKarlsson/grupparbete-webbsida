@@ -13,13 +13,20 @@
 .motto {
   grid-column: 2/3;
   grid-row: 4/5;
-  z-index: 3;
+  z-index: 2;
   margin-top: 40px;
 }
+
 .bakgrund {
   grid-column: 1 / -1;
   grid-row: 1 /-1;
   z-index: 1;
+}
+
+.navbar {
+  grid-column: 1 /-1;
+  grid-row: 5/6;
+  z-index: 2;
 }
 
 .container2 {
